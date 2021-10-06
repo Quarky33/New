@@ -1,0 +1,58 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: url(frontpage.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+  h1 {
+    font-family: 'georgia', serif;
+    font-size: 70px;
+    color: gold;
+    text-shadow: 2px 2px 2px #000000;
+  }
+
+  hr {
+   border:5px;
+   color: gold;
+   height: 10px;
+   max-width: 600px;
+  }
+
+
+  .buffer {
+    height: 50px
+   }
+
+
+
+  .btn{
+    font-weight:700;
+    border-radius: 300px;
+    text-transform: uppercase;
+    font-family: 'brush script MT', cursive;
+    color:black;
+  }
+
+  .btn-primary {
+    background-color: gold;
+    border-color: gold;
+    box-shadow: 5px 5px 5px #000000;
+
+  }
+
+  .btn-primary:hover {
+    background-color:gold;
+    border-color:gold;
+    border-width: 5px;
+    color:black;
+    /* transition: 0.5s ease-in-out; */
+  }
+
+  .btn-xl {
+    padding: 1rem 2rem;
+  }
